@@ -1,0 +1,28 @@
+body#tinymce.wp-editor {
+  max-width: 928px;
+  margin: 9px 10px;
+}
+
+img {
+  height: auto !important;
+}
+
+.alignleft, .alignright {
+  width: 424px !important;
+}
+
+.alignleft, .alignright, .alignnone, .aligncenter {
+  img {
+    display: block;
+    box-sizing: border-box;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 5px;
+  }
+}
+
+.alignnone, .aligncenter {
+  box-sizing: border-box;
+  width: 100% !important;
+  margin: 1.5em 0;
+}
